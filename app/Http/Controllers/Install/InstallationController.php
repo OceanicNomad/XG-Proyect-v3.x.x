@@ -445,10 +445,6 @@ class InstallationController extends BaseController
         // get the database structure
         require_once XGP_ROOT . 'database' . DIRECTORY_SEPARATOR . 'database.php';
 
-        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-            $this->installationModel->setWindowsSqlMode();
-        }
-
         /**
          * Do table creations here...
          */
@@ -460,9 +456,6 @@ class InstallationController extends BaseController
             if ($status[$table] != 1) {
                 return false;
             }
-        }
-        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-            $this->installationModel->setNormalMode();
         }
 
         // ok!

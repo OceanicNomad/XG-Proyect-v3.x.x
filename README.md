@@ -8,7 +8,7 @@
     <br>
     <strong>X</strong>treme <strong>G</strong>amez <strong>Proyect</strong>o
     <br>
-    <strong>Open-source OGame Clon</strong>
+    <strong>Open-source OGame Clone</strong>
 </p> 
 
 About
@@ -79,7 +79,7 @@ XGP uses MailHog and PHPMailer as tools for better mailing support. MailHog allo
 Read our <a href="https://github.com/XGProyect/XG-Proyect-v3.x.x/wiki/MailHog-usage-and-setup" target="_blank">MailHog guide</a> to get started.
 
 ## Who is using XG Proyect?
-We are happy to deliver this software giving others the possibility to have a good OGame Clon.  
+We are happy to deliver this software giving others the possibility to have a good OGame Clone.  
 On the other hand, it's a pleasure to see people using XG Proyect.  
 <a href="https://github.com/XGProyect/XG-Proyect-v3.x.x/issues" target="_blank">Create a ticket</a> on GitHub so I can put your game logo here!  
 
